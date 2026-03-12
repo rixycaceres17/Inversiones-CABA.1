@@ -1,0 +1,89 @@
+*{
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:white;
+}
+
+header{
+background:red;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+#nosotros div{
+border:1px solid #ccc;
+padding:15px;
+margin:15px;
+background:#f9f9f9;
+border-radius:5px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+font-weight:bold;
+}
+
+section{
+padding:20px;
+text-align:center;
+}
+
+#inicio img{
+margin-top:10px;
+border-radius:5px;
+}
+
+#productos div{
+display:inline-block;
+width:200px;
+margin:15px;
+padding:10px;
+border:1px solid #ddd;
+border-radius:5px;
+}
+
+#productos img{
+width:150px;
+height:auto;
+}
+
+form{
+width:300px;
+margin:auto;
+text-align:left;
+}
+
+input, textarea{
+width:100%;
+padding:8px;
+margin-top:5px;
+margin-bottom:10px;
+border:1px solid #ccc;
+border-radius:4px;
+}
+
+button{
+background:red;
+color:white;
+border:none;
+padding:10px;
+cursor:pointer;
+}
+
+button:hover{
+background:darkred;
+}
+
+footer{
+background:red;
+color:white;
+text-align:center;
+padding:10px;
+margin-top:20px;
+}
+
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Inversiones CABA</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Inversiones CABA</h1>
+
+   <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    
+</header>
+
+<section id="inicio">
+<h2>Bienvenidos</h2>
+
+<p>Inversiones CABA ofrece productos de calidad con buenos precios para nuestros clientes.</p>
+
+<img src="img/CABA.jpg" width="300">
+</section>
+
+<section id="nosotros">
+
+<h2>Nosotros</h2>
+
+<div>
+<h3>Historia</h3>
+<p>Inversiones CABA nació con el sueño de emprender y ofrecer productos útiles para la comunidad. 
+El nombre CABA representa la unión de dos familias emprendedoras, Cáceres y Barahona, quienes crearon 
+un negocio sólido y con visión de crecimiento.</p>
+<p>Inició en abril de 2021 con una inversión de 50,000, dedicándose al ámbito de la abarrotería en general, 
+con productos de consumo diario y un enfoque especial en artículos de plásticos desechables.</p>
+</div>
+
+<div>
+<h3>Misión</h3>
+<p>Brindar productos de calidad que satisfagan a nuestros clientes.</p>
+</div>
+
+<div>
+<h3>Visión</h3>
+<p>Ser una empresa reconocida por su buen servicio.</p>
+</div>
+
+</section>
+
+<section id="productos">
+
+<h2>Productos</h2>
+
+<div>
+<img src="img/producto1.jpg" width="150">
+<h3>Platos Desechables</h3>
+<p>Platos prácticos y resistentes, ideales para comidas, fiestas y eventos.</p>
+</div>
+
+<div>
+<img src="img/producto2.PNG" width="150">
+<h3>Condimentos</h3>
+<p>Variedad de especias y sazonadores para darle mejor sabor a tus comidas.</p>
+</div>
+
+<div>
+<img src="img/producto3.JPG" width="150">
+<h3>Aceite</h3>
+<p>Aceite de buena calidad perfecto para cocinar, freír o preparar alimentos.</p>
+</div>
+
+<div>
+<img src="img/producto4.webp" width="150">
+<h3>Servilletas</h3>
+<p>Servilletas suaves y absorbentes para uso diario en el hogar o negocios.</p>
+</div>
+
+<div>
+<img src="img/producto5.jpg" width="150">
+<h3>Mayonesa</h3>
+<p>Mayonesa cremosa ideal para acompañar comidas, sandwiches y ensaladas.</p>
+</div>
+
+<div>
+<img src="img/producto6.jpg" width="150">
+<h3>Bolsas Plásticas</h3>
+<p>Bolsas resistentes y prácticas para transportar o guardar productos.</p>
+</div>
+
+</section>
+
+<section id="contacto">
+
+<h2>Contacto</h2>
+
+<form id="formulario">
+
+<label>Nombre</label><br>
+<input type="text" id="nombre"><br><br>
+
+<label>Correo</label><br>
+<input type="email" id="correo"><br><br>
+
+<label>Mensaje</label><br>
+<textarea id="mensaje"></textarea><br><br>
+
+<button type="submit">Enviar</button>
+
+</form>
+
+<p id="texto" style="color:green;"></p>
+
+</section>
+
+<footer>
+<p>© 2026 Inversiones CABA</p>
+</footer>
+
+<script>
+
+document.getElementById("formulario").addEventListener("submit", function(e){
+
+e.preventDefault();
+
+let nombre = document.getElementById("nombre").value;
+
+document.getElementById("texto").innerText =
+"Gracias " + nombre + ", tu mensaje fue enviado.";
+
+this.reset();
+
+});
+
+</script>
+
+</body>
+</html>
